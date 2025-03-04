@@ -129,7 +129,11 @@ button:hover {
     background: #344fbc;
     border-radius: 50%;
     z-index: -1;
+    transition: all 0.3s ease-out;
 }
+
+    
+
 
 .rotate {
     transform: rotateY(180deg);
@@ -189,7 +193,7 @@ button:hover {
         right: -70vw;
         width: 140vw;
         height: 140vw;
-        transform:none;
+        
     }
 
     .maincontainer-login {
