@@ -11,17 +11,24 @@ body {
     min-height: 100vh;
     background-color: #1A1A1D;
     overflow-x: hidden;
-    flex-wrap: wrap;
     padding: 20px;
 }
+
+
 
 h1 {
     font-size: 6vw;
     color: white;
     font-family: "Montserrat", sans-serif;
     animation: moveToRight 1.5s ease-out forwards;
-    text-align: center;
+    text-align: left;
     margin: 20px 0;
+	white-space: nowrap;
+	
+}
+
+.bem-vindo {
+    display: block;
 }
 
 .maincontainer-login {
@@ -107,7 +114,7 @@ button:hover {
 
 .circle {
     position: fixed;
-    right: -50vh;
+    right: -35vh;
     top: 50%;
     transform: translateY(-50%);
     width: 125vh;
@@ -126,18 +133,50 @@ button:hover {
     100% { transform: translateX(0); opacity: 1; }
 }
 
+@media (max-width: 1250px) {
+		.circle {
+			right: -55vw;
+			position:fixed;
+        }
+}
+@media (max-width: 1035px) {
+		.circle {
+			right: -70vw;
+        }
+}
+@media (max-width: 1024px) {
+		.circle {
+			right: -27vw;
+        }
+}
+
+@media (max-width: 900px) {
+	.circle {
+        right: -90vw;
+        width: 140vw;
+        height: 140vw;
+    }
+}
 
 @media (max-width: 768px) {
-    body {
-        flex-direction: column;
-        justify-content: center;
+    
+	h1{
+		text-align:center;
+	}
+	.bem-vindo {
+        display: inline;
+	}
+	
+	body {
+		flex-direction: column;
+        justify-content: center; 
         overflow-y: auto;
-    }
+	}
 
     h1 {
         font-size: 10vw;
-        margin: 40px 0;
-    }
+		margin: 40px 0;
+	}
 
     .circle {
         right: -70vw;
@@ -163,4 +202,5 @@ button:hover {
     input, button {
         width: 85%;
     }
+	
 }
