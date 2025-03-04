@@ -181,8 +181,7 @@ button:hover {
 	body {
 	flex-direction: column;
         justify-content: center; 
-        overflow-y: auto;
-	}
+     }
 
     h1 {
         font-size: 10vw;
