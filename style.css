@@ -76,7 +76,7 @@ h1 {
 }
 
 input {
-	font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
     width: 75%;
     height: 50px;
     padding: 15px;
@@ -134,19 +134,19 @@ button:hover {
 }
 
 @media (max-width: 1250px) {
-		.circle {
-			right: -55vw;
-			position:fixed;
+	.circle {
+		right: -55vw;
+		position:fixed;
         }
 }
 @media (max-width: 1035px) {
-		.circle {
-			right: -70vw;
+	.circle {
+		right: -70vw;
         }
 }
 @media (max-width: 1024px) {
-		.circle {
-			right: -27vw;
+	.circle {
+		right: -27vw;
         }
 }
 
@@ -161,21 +161,21 @@ button:hover {
 @media (max-width: 768px) {
     
 	h1{
-		text-align:center;
+	text-align:center;
 	}
 	.bem-vindo {
         display: inline;
 	}
 	
 	body {
-		flex-direction: column;
+	flex-direction: column;
         justify-content: center; 
         overflow-y: auto;
 	}
 
     h1 {
         font-size: 10vw;
-		margin: 40px 0;
+	margin: 40px 0;
 	}
 
     .circle {
