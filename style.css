@@ -205,6 +205,11 @@ button:hover {
         margin-left: 12%;
     }
 }
+@media (max-width: 550px){
+	.circle{
+		top:80vw;
+	}
+}
 
 @media (max-width: 480px) {
     .login-title {
